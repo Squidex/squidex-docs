@@ -75,14 +75,14 @@ Also, we have more example you can use them on your apps.
 
 ### 1. Custom editor for choosing different country.
 
-URL: https://seamys.github.io/squidex-samples/editors/countrySelect.html
+URL: https://squidex.github.io/squidex-samples/editors/country-selector.html
 
 ![Choosing different country](../images/04/07/02-country-selector.gif "Choosing different country")
 
 
 ### 2. Integration with the fancytree jquery plugin for tags field.
 
-URL:https://seamys.github.io/squidex-samples/editors/tags-category.html?url=/squidex-samples/editors/ls.json
+URL:https://squidex.github.io/squidex-samples/editors/tags-category.html?url=/squidex-samples/editors/ls.json
 
 By customizing the tree's data, you can simply pass a URL parameter to specify the source of the data. The data format is as follows
 
