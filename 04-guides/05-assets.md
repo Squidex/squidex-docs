@@ -23,9 +23,8 @@ You have to pass in either the `width` or `height` parameter. if the asset is no
 Squidex supports the following resize modes:
 
 
-* `Crop`: Crops the resized image to fit the bounds of its container.
+* `Crop`: Crops the resized image. This will stretch the resized image to fit the bounds of its container.
 * `Pad`: Pads the resized image to fit the bounds of its container. If only one dimension is passed, will maintain the original aspect ratio.
 * `BoxPad`: Pads the image to fit the bound of the container without resizing the original source. When downscaling, performs the same functionality as `Pad`.
 * `Max`: Constrains the resized image to fit the bounds of its container maintaining the original aspect ratio.
-* `Min`: Resizes the image until the shortest side reaches the set given dimension. Upscaling is disabled in this mode and the original image will be returned if attempted.
-* `Crop`: Stretches the resized image to fit the bounds of its container.
+* `Min`: Resizes the image until the shortest side reaches the set given dimension. Upscaling is disabled in this mode and the original image will be returned if attempted. 
